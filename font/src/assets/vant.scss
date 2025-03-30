@@ -1,0 +1,77 @@
+/*
+项目全局样式
+现在浏览器都支持css原生变量
+语法：1. 定义： --css变量名：css变量值
+     2. 使用： var(--变量名)
+
+作用域：
+     1. 局部作用域 => .类型 { 在类名下定义的变量，只能在这个类名下使用} 元素在这里内名下才生效
+     2. 全局变量 => :root { 在 :root 下定义的变量为全局 }
+*/
+
+
+:root {
+    --cp-color:pink;
+    --cp-border-color:blue
+}
+.cp-box {
+    --cp-box-color:red;
+    width: 100px;
+    height: 100px;
+    background-color: var(--cp-color);
+    color: var(--cp-border-color);
+}
+
+
+   :root:root {
+   // 自定义变量
+   --cp-primary: #16c2a3;
+       --cp-plain: #eaf8f6;
+       --cp-orange: #fca21c;
+       --cp-text1: #121826;
+       --cp-text2: #3c3e42;
+       --cp-text3: #6f6f6f;
+       --cp-tag: #848484;
+       --cp-dark: #979797;
+       --cp-tip: #c3c3c5;
+       --cp-disable: #d9dbde;
+       --cp-line: #ededed;
+       --cp-bg: #f6f7f9;
+       --cp-price: #eb5757;
+   // 覆盖vant主体色
+   --van-primary-color: var(--cp-price);
+   // == vant组件变量 ==
+   // 单元格上下间距
+   --van-cell-vertical-padding: 14px;
+   // 复选框大小
+   --van-checkbox-size: 14px;
+   // 默认按钮文字大小
+   --van-button-normal-font-size: 16px;
+   }
+
+
+   body {
+       font-size: 14px;
+       color: var(--cp-text1);
+   }
+a {
+    color: var(--cp-text2);
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+   .van-tabs {
+       .van-tabs__nav {
+           padding: 0 0 15px 0;
+       }
+       .van-tabs__line {
+           width: 20px;
+           background-color: var(--cp-primary);
+       }
+       .van-tab {
+           padding: 0 15px;
+       }
+   }

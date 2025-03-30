@@ -1,0 +1,72 @@
+{
+  "id": "4826560",
+  "name": "网上商城-移动端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3278143",
+      "name": "运动户外",
+      "font_class": "yundonghuwai-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5202068",
+      "name": "皮鞋",
+      "font_class": "pixie",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "7812961",
+      "name": "内衣",
+      "font_class": "neiyi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11394475",
+      "name": "男装",
+      "font_class": "nanzhuang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "12252418",
+      "name": "5.手机数码",
+      "font_class": "shoujishuma",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12255702",
+      "name": "电脑办公",
+      "font_class": "diannaobangong",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "12273920",
+      "name": "钟表",
+      "font_class": "zhongbiao",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "16683664",
+      "name": "医疗保健",
+      "font_class": "yiliaobaojian",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "1161671",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
